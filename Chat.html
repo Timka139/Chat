@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ru-RU">
+<head>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery. min.js"></script>
+    <meta charset="UTF-8"/>
+    <title>TeterevMessagers</title>
+    <script src="logic.js"></script>
+    <style type="text/css">
+        body {
+            font: 99.5%/1.6 Verdana, Tahoma, sans-serif; color: #49883b;
+        }
+        h1, h2 {
+            color: #000000;
+        }
+        header, main, footer {
+            margin: 30px auto;
+            width: 600px;
+        }
+        #content {
+            padding: 8px;
+        }
+        .box {
+            border:1px solid #ccc;
+            border-radius:4px;
+            box-shadow:0 0 2px #ccc;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1 align="center">TeterevMessagers</h1>
+    <p>Чат</p>
+    <iframe src="messages.txt" class="box" height="360" width="600"></iframe>
+</header>
+<main id="content" class="wrapper box">
+    <article>
+        <h2>Timka</h2>
+       <content>
+           <p>
+               <textarea placeholder="Введите сообщение" name="soobshenie" class="box" cols="70" rows="4"></textarea>
+           </p>
+           <p>
+               <button type="submit" name="soobshenie">Отправить</button>
+           </p>
+           </content>
+    </article>
+    <article>
+    </article>
+</main>
+<footer>&copy;Timka 2016</footer>
+</body>
+</html>
+
